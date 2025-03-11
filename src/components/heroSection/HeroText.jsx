@@ -9,7 +9,7 @@ const HeroText = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0 }}
-        className="sm:text-xl  uppercase text-lightGrey "
+        className="sm:text-1xl  uppercase text-lightGrey "
       >
         Software Engineer | Product Engineer | AI & Cloud Solutions Architect
       </motion.h2>
