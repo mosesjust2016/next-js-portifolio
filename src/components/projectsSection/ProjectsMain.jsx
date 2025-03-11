@@ -20,18 +20,40 @@ const projects = [
   },
   {
     name: "Biometric",
-    year: "Jan2023",
+    year: "Jan 2023",
     align: "right",
     image: "/images/flexpayroll.png",
     link: "https://flexpayroll.co.zm/hr/",
   },
   {
+    name: "Biometric Desktop App",
+    year: "Jan 2023",
+    align: "left",
+    image: "/images/biometricdesktop.png",
+    link: "https://flexpayroll.co.zm/hr/",
+  },
+  {
     name: "Sampay",
     year: "May 2024",
-    align: "left",
+    align: "right",
     image: "/images/sampay.png",
     link: "https://samafricaonline.com/v1/",
   },
+  {
+    name: "AI Media Generator",
+    year: "March 2025",
+    align: "left",
+    image: "/images/mediagenerator.png",
+    link: "#",
+  },
+  {
+    name: "Odoo Implemantation",
+    year: "June 2024",
+    align: "right",
+    image: "/images/odoo.png",
+    link: "#",
+  }
+
 ];
 
 const ProjectsMain = () => {
@@ -46,17 +68,16 @@ const ProjectsMain = () => {
         <ProjectsText />
       </motion.div>
       <div className="flex flex-col gap-20 max-w-[900px] mx-auto mt-12">
-        {projects.map((project, index) => {
-          return (
-            <SingleProject
-              key={index}
-              name={project.name}
-              year={project.year}
-              align={project.align}
-              image={project.image}
-            />
-          );
-        })}
+        {projects.map((project, index) => (
+          <SingleProject
+            key={index}
+            name={project.name}
+            year={project.year}
+            align={project.align}
+            image={project.image}
+            link={project.link}
+          />
+        ))}
       </div>
     </div>
   );
