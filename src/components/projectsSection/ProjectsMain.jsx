@@ -52,7 +52,14 @@ const projects = [
     align: "right",
     image: "/images/odoo.png",
     link: "#",
-  }
+  },
+  {
+    name: "AI Plant Identifier",
+    year: "January 2025",
+    align: "left",
+    image: "/images/plant.png",
+    link: "https://identify-plant-using-geminin-git-de3348-mosesjust2016s-projects.vercel.app/",
+  },
 
 ];
 
