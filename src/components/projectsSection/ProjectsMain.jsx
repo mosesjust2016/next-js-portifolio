@@ -59,6 +59,13 @@ const projects = [
     align: "left",
     image: "/images/plant.png",
     link: "https://identify-plant-using-geminin-git-de3348-mosesjust2016s-projects.vercel.app/",
+  },,
+  {
+    name: "Weather App",
+    year: "March 2025",
+    align: "March",
+    image: "/images/weather-app.png",
+    link: "https://weather-app-lyart-one-54.vercel.app/",
   },
 
 ];
